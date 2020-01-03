@@ -1,0 +1,52 @@
+@font-face { font-family: Creepster-Regular; 
+    src: url('../../fonts/Creepster-Regular/Creepster-Regular.ttf'); } 
+  
+@font-face { font-family: Foul Fiend; 
+    src: url('../../fonts/Foul Fiend/Foul Fiend.ttf'); } 
+  
+  
+.NavBar{
+    border: 0px solid black;
+    background-color: #46344E; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6.5vh;
+
+}
+  
+#joinbtn{
+    margin-right: 1vw;
+    width: 15vw;
+    padding: .5%;
+    font-size: 12pt;
+    font-family: Foul Fiend;
+    background-color: black;
+    color: #FAED26;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+#joinbtn:hover{
+    background-color: #212121;
+}
+  
+#joinbtn2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+#name{
+    flex:75%;
+    text-decoration: none;
+}
+  
+h2 {
+    width: 15vw;
+    color: #FAED26;
+    font-size: 24px;
+    font-family: Foul Fiend;
+}

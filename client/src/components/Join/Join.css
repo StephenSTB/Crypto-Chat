@@ -1,0 +1,61 @@
+.JoinMain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 1px solid black;
+    background: #46344E;
+    width: 45vh;
+    height: 35vh;
+    overflow: hidden;
+    align-items:center; 
+}
+
+#signUp{
+    margin-top: 10%;
+}
+
+#curAddress{
+    font-weight: bold;
+}
+
+@font-face { font-family: Foul Fiend; 
+    src: url('../../fonts/Foul Fiend/Foul Fiend.ttf'); } 
+
+#join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 10%;
+    border: 1px solid black;
+    font-size: 12;
+    font-family: Foul Fiend;
+    background-color: black;
+    color: #FAED26;
+    cursor: pointer;
+    margin-top: 5%;
+    border-radius:20px;
+}
+
+#join:hover{
+    background-color: #212121;
+}
+
+#user{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#userInput{
+    height:50%;
+    background-color: #5A5560;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    color:#FAED26;
+}
+
+#userInput:focus{
+    outline: none;
+}
